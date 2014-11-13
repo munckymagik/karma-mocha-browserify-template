@@ -1,0 +1,23 @@
+{
+  "name": "karma-mocha-browserify-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "static/index.html",
+  "scripts": {
+    "build": "browserify js/main.js -o static/application.js",
+    "test": "karma start karma.conf.js",
+    "watch": "watchify js/main.js -o static/application.js --debug --verbose"
+  },
+  "author": "Dan Munckton",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^6.3.2",
+    "karma": "^0.12.24",
+    "karma-browserify": "^1.0.0",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.1.5",
+    "karma-cli": "0.0.4",
+    "karma-mocha": "^0.1.9",
+    "watchify": "^2.1.1"
+  }
+}
