@@ -32,3 +32,12 @@ To manually build the JavaScript with Browserify:
 ```
 $ npm run build
 ```
+
+## Useful Links
+
+* [Browserify](http://browserify.org/)
+* [Browserify Handbook](https://github.com/substack/browserify-handbook)
+* [Karma](http://karma-runner.github.io/)
+* [karma-browserify](https://github.com/Nikku/karma-browserify)
+* [Mocha](http://mochajs.org/)
+* [Chai](http://chaijs.com/)
